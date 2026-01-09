@@ -8,7 +8,7 @@ export default function Newsletter() {
     <div className=" text-center flex flex-col items-center w-full px-5 p-10 lg:p-20 font-montserrat newsletter text-[#333333] gap-10 relative ">
       <div className="bg-black w-full h-full left-0 top-0 absolute opacity-70 z-0"></div>
 
-      <div className="w-[80%] mx-auto bg-white rounded-[20px] flex justify-between z-10">
+      <div className="w-[95%] lg:w-[80%] mx-auto bg-white rounded-[20px] flex flex-col-reverse lg:flex-row justify-between z-10">
         <Image
           src="/images/newsletter.png"
           alt="Product 1"
@@ -17,7 +17,7 @@ export default function Newsletter() {
           className="h-full"
         />
 
-        <div className="flex flex-col items-center gap-7  justify-center">
+        <div className="flex flex-col items-center gap-7 p-5  justify-center">
           <h1 className="text-xl font-bold">"Subscribe to our Newsletter"</h1>
           <p>
             Join our green community and receive exclusive offers and insightful

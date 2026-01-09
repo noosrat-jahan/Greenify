@@ -4,15 +4,23 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="bg-[#333333] p-5 lg:p-20 text-white flex flex-col lg:flex-row justify-between gap-10 lato">
+    <div className="bg-[#333333] p-5 lg:p-20 text-white flex flex-col lg:flex-row justify-between gap-10 lato relative">
+
+       <Image
+            src="/images/globe.png"
+            alt="Logo"
+            width={300}
+            height={100}
+            className="absolute right-8 -top-36 z-10 w-28 h-28 md:w-44 md:h-44 lg:w-80 lg:h-28"
+          />
       <div className="space-y-5">
-        <div className="bg-white py-1 px-4 flex justify-center rounded-lg w-[50%] md:w-[40%] lg:w-[30%]">
+        <div className="bg-white py-1 px-4 flex justify-center rounded-lg w-[50%] md:w-[20%] lg:w-[30%]">
           <Image
             src="/images/logo.png"
             alt="Logo"
             width={500}
             height={100}
-            className=""
+            className=" "
           />
         </div>
         <p>Pages</p>

@@ -5,7 +5,7 @@ import React from "react";
 
 export default function BestProduct() {
   return (
-    <div className="md:mt-20 text-center w-full px-5 md:px-20 font-montserrat  text-[#333333]">
+    <div className="md:mt-20 mt-10 text-center w-full px-5 md:px-20 font-montserrat  text-[#333333]">
       <h1 className="text-[22px]  md:text-3xl font-bold">
         Our Best-Selling Sustainable Products
       </h1>

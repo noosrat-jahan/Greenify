@@ -5,7 +5,7 @@ import React from "react";
 
 export default function Blogs() {
   return (
-    <div className="md:mt-20 text-center w-full px-5 lg:p-16   font-montserrat bg-[#55B76B] relative">
+    <div className="md:mt-20 text-center w-full px-5 lg:p-16 py-10   font-montserrat bg-[#55B76B] relative">
       <Image
         src="/images/whitefly.png"
         alt="Logo"

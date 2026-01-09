@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Reviews() {
   return (
-    <div className="md:mt-20 text-center w-full px-5 md:px-20 font-montserrat  text-[#333333]">
+    <div className="lg:mt-20 md:mt-10 text-center w-full  p-5 lg:p-20 font-montserrat  text-[#333333]">
       <h1 className="text-[22px]  md:text-3xl font-bold">Customer Reviews</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
         {/* review 1  */}
