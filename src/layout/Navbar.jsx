@@ -5,8 +5,8 @@ import MobileDrawer from "./MobileDrawer";
 
 export default function Navbar() {
   return (
-    <div className="mt-6 px-20 flex items-center justify-between">
-      <div className=" gap-5 lg:gap-0 flex justify-between lg:flex-none">
+    <div className="mt-6 px-5 md:px-20 flex items-center justify-between ">
+      <div className=" gap-5 lg:gap-0 flex justify-between items-center lg:flex-none">
         <MobileDrawer></MobileDrawer>
         <Link href="/">
           <Image src="/images/logo.png" alt="Logo" width={170} height={60} className="w-28 lg:w-[170px]" />
