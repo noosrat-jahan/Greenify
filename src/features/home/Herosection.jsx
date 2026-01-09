@@ -32,7 +32,7 @@ export default function Herosection() {
 
           <div className="mt-6 md:mt-12">
             <Link href="/pages/allproducts">
-              <ShopButton buttonText="Shop Now"></ShopButton>
+              <ShopButton buttonText="SHOP NOW"></ShopButton>
             </Link>
           </div>
 
