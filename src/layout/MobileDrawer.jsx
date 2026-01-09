@@ -8,6 +8,7 @@ export default function MobileDrawer() {
   useEffect(() => {
     document.body.style.overflow = open ? "hidden" : "auto";
   }, [open]);
+  
   return (
     <div>
       <button onClick={() => setOpen(true)}>
