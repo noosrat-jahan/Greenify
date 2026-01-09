@@ -1,4 +1,6 @@
+import ShopButton from "@/components/ui/ShopButton";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 export default function Herosection() {
@@ -27,9 +29,12 @@ export default function Herosection() {
             "Discover Sustainability. Embrace Greenify. <br /> Your Eco-Friendly
             Haven for Conscious Shopping."
           </p>
-          <button className="text-white font-extrabold border-b-4 border-[rgb(51,51,51)] rounded-md bg-[#55B76B] py-2 px-9 mt-6 md:mt-12 hover:bg-white hover:text-[#55B76B] hover:shadow-lg shadow-green-400 hover:border-[#55B76B] transition-all duration-500 ease-in-out font-lato">
-            SHOP NOW
-          </button>
+
+          <div className="mt-6 md:mt-12">
+            <Link href="/pages/allproducts">
+              <ShopButton buttonText="Shop Now"></ShopButton>
+            </Link>
+          </div>
 
           {/* laptop version  */}
           <Image
@@ -64,7 +69,7 @@ export default function Herosection() {
             alt="Greenify Hero"
             width={55}
             height={40}
-            className="absolute top-[375px] left-48 hidden lg:block"
+            className="absolute top-[380px] left-48 hidden lg:block"
           />
 
           {/* tablet version  */}
@@ -105,9 +110,7 @@ export default function Herosection() {
         </div>
       </div>
 
-      <div className="bg-[#000000]/50 rounded-[100px] h-1 w-[40%] mx-auto my-10 lg:hidden" >
-
-      </div>
+      <div className="bg-[#000000]/50 rounded-[100px] h-1 w-[40%] mx-auto my-10 lg:hidden"></div>
     </div>
   );
 }

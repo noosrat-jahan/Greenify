@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Whychoose() {
   return (
-    <div className="md:mt-16 text-center w-full px-5 md:px-20 font-montserrat ">
+    <div className="md:mt-20 text-center w-full px-5 md:px-20 font-montserrat ">
       <Image
         src="/images/bulb.png"
         alt="Greenify Hero"
@@ -13,7 +13,9 @@ export default function Whychoose() {
                   lg:block hidden"
       />
 
-      <h1 className="text-[22px]  md:text-3xl font-bold">Why Choose Greenify?</h1>
+      <h1 className="text-[22px] text-[#333333]  md:text-3xl font-bold">
+        Why Choose Greenify?
+      </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-11 mt-10 ">
         <div className="flex flex-col items-center space-y-4 text-[#333333]">
           <Image
@@ -35,10 +37,11 @@ export default function Whychoose() {
             width={110}
             height={110}
           />
-          <h1 className="text-[20px] font-bold">Sustainable Products</h1>
+          <h1 className="text-[20px] font-bold">Eco-Friendly Choices</h1>
           <p className="text-base font-lato">
-            Explore our carefully curated selection of sustainable products,
-            each designed to reduce your carbon footprint
+            Make conscious choices with our eco-friendly products, knowing that
+            your purchases promote ethical sourcing and responsible
+            manufacturing practices.
           </p>
         </div>
         <div className="flex flex-col items-center  space-y-4 text-[#333333]">
@@ -48,10 +51,11 @@ export default function Whychoose() {
             width={110}
             height={110}
           />
-          <h1 className="text-[20px] font-bold">Sustainable Products</h1>
+          <h1 className="text-[20px] font-bold">High-Quality Selection</h1>
           <p className="text-base font-lato">
-            Explore our carefully curated selection of sustainable products,
-            each designed to reduce your carbon footprint
+            Invest in long-lasting and reliable products that meet our stringent
+            quality standards, ensuring your satisfaction and the longevity of
+            your purchases.
           </p>
         </div>
         <div className="flex flex-col items-center  space-y-4 text-[#333333]">
@@ -61,10 +65,10 @@ export default function Whychoose() {
             width={110}
             height={110}
           />
-          <h1 className="text-[20px] font-bold">Sustainable Products</h1>
+          <h1 className="text-[20px] font-bold">Sustainable Packaging</h1>
           <p className="text-base font-lato">
-            Explore our carefully curated selection of sustainable products,
-            each designed to reduce your carbon footprint
+            Our sustainable packaging ensures that your orders arrive safely
+            while minimizing their impact on the planet.
           </p>
         </div>
       </div>
