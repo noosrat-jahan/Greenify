@@ -48,6 +48,21 @@ export default function About() {
           <ShopButton buttonText="READ MORE"></ShopButton>
         </Link>
       </div>
+
+      <Image
+            src="/images/arrows.png"
+            alt="Logo"
+            width={200}
+            height={100}
+            className="absolute left-5 -bottom-8 w-16 h-16 md:w-36 md:h-36 lg:w-44 lg:h-40"
+          />
+          <Image
+            src="/images/leaves.png"
+            alt="Logo"
+            width={200}
+            height={100}
+           className="absolute right-2 -bottom-8 w-20 h-20 md:w-36 md:h-36 lg:w-40 lg:h-40"
+          />
     </div>
   );
 }

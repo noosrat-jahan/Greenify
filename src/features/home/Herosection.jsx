@@ -5,32 +5,32 @@ import React from "react";
 
 export default function Herosection() {
   return (
-    <div className="lg:mt-8 lg:pl-20 ">
-      <div className=" font-montserrat  flex flex-col lg:flex-row justify-between gap-14 md:gap-0 lg:gap-24 items-center ">
+    <div className="lg:mt-8 lg:pl-20 mt-5">
+      <div className=" flex flex-col lg:flex-row justify-between gap-14 md:gap-0 lg:gap-24 items-center ">
         <div
-          className="relative flex flex-col items-center lg:items-start text-center lg:text-left  
-        p-5 md:p-14 lg:p-0"
+          className=" flex flex-col items-center lg:items-start text-center lg:text-left  
+        px-7 md:p-14 lg:p-0"
         >
-          <h1 className="leading-[40px] md:leading-[60px] lg:leading-[80px]">
-            <span className="text-2xl md:text-5xl font-bold ">
+          <h1 className="font-montserrat text-[#000000] leading-[50px] md:leading-[60px] lg:leading-[80px] text-[28px] md:text-5xl">
+            <span className=" font-bold ">
               Welcome to Greenify
             </span>{" "}
             <br />
-            <span className="text-2xl md:text-5xl ">Your Sustainable</span>{" "}
+            <span className="font-medium text-[32px]">Your Sustainable</span>{" "}
             <br />
-            <span className="text-2xl md:text-5xl font-extrabold text-[#55B76B] hidden lg:inline">
+            <span className=" font-black text-[#55B76B] hidden lg:inline">
               Shopping <br /> Destination
             </span>
-            <span className="text-2xl md:text-5xl font-bold text-[#55B76B] inline lg:hidden ">
+            <span className=" font-black text-[#55B76B] inline lg:hidden ">
               Shopping Destination
             </span>
           </h1>
-          <p className="text-sm md:text-base font-lato">
+          <p className="text-sm md:text-base font-normal mt-5 font-lato">
             "Discover Sustainability. Embrace Greenify. <br /> Your Eco-Friendly
             Haven for Conscious Shopping."
           </p>
 
-          <div className="mt-6 md:mt-12">
+          <div className="mt-[30px] md:mt-12 text-base font-lato relative">
             <Link href="/pages/allproducts">
               <ShopButton buttonText="SHOP NOW"></ShopButton>
             </Link>
@@ -58,9 +58,9 @@ export default function Herosection() {
           <Image
             src="/images/butterfly.png"
             alt="Greenify Hero"
-            width={50}
-            height={40}
-            className="absolute top-[270px] right-4 block md:hidden"
+            width={45}
+            height={38}
+            className="absolute top-[373px] left-[298px] block md:hidden"
           />
 
           {/* laptop version  */}
@@ -87,30 +87,31 @@ export default function Herosection() {
             alt="Greenify Hero"
             width={40}
             height={30}
-            className="absolute top-[300px] left-10 block md:hidden"
+            className="absolute top-[408px] left-[57px] block md:hidden"
           />
         </div>
 
-        <div className="flex items-end w-full lg:w-auto justify-between">
+        <div className="flex items-end w-full gap-[15px] lg:w-auto justify-between">
           <Image
             src="/images/bulb.png"
             alt="Greenify Hero"
             width={160}
             height={200}
-            className="w-[70] h-[90] md:w-[160] md:h-[200] top-[750px]  md:ml-24 ml-6
+            className="w-[75] h-[88] md:w-[160] md:h-[200] top-[750px]  md:ml-24 ml-6
             block lg:hidden"
           />
           <Image
             src="/images/hero.png"
             alt="Greenify Hero"
-            width={200}
-            height={300}
-            className="w-[210] h-[300] md:w-[400] md:h-[500] lg:w-[550] lg:h-[630]"
+            width={2260}
+            height={2728}
+            draggable={false}
+            className="w-[330px] h-[347px] left-[113px] md:w-[400] md:h-[500] lg:w-[550px] lg:h-[630px]"
           />
         </div>
       </div>
 
-      <div className="bg-[#000000]/50 rounded-[100px] h-1 w-[40%] mx-auto my-10 lg:hidden"></div>
+      <div className="bg-[#000000]/50 rounded-[100px] h-1 w-[40%] mx-auto my-[47px]  lg:hidden"></div>
     </div>
   );
 }

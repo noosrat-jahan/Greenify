@@ -15,13 +15,13 @@ const geistMono = Geist_Mono({
 
 const lato = Lato({
   subsets: ["latin"],
-  weight: ["300", "400", "700"],
+  weight: ["300", "400", "700",  "900"],
   variable: "--font-lato",
 });
 
 const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["400", "600", "700", "900"],
   variable: "--font-montserrat",
 });
 
@@ -36,9 +36,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${lato.variable} ${montserrat.variable} antialiased`}
       >
-        <Navbar></Navbar>
+        <div className="container mx-auto">
+          <Navbar></Navbar>
         {children}
         <Footer></Footer>
+        </div>
       </body>
     </html>
   );
